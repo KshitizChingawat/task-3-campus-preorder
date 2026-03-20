@@ -1,4 +1,4 @@
-export const API = "http://localhost:5000/api";
+export const API = "https://task-3-campus-preorder.onrender.com/api";
 
 export const post = async (url, data) => {
   const res = await fetch(API + url, {
